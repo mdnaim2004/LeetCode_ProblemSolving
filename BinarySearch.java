@@ -3,7 +3,7 @@ class BinarySearch {
         int start = 0;
         int end = nums.length-1;
 
-        while(start <= end){
+        while(start <= end){   // devided into 1st and last and find the mid position
             int mid = (start + end)/2;
 
             if(nums[mid] == target){
