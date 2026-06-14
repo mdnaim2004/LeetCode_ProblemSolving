@@ -9,7 +9,6 @@ class AddToArray {
         List<Integer> ans = new ArrayList<>();
 
         int p = num.length-1;
-
         int carry = 0;
 
         while (p>=0 || k>0) {
@@ -21,7 +20,6 @@ class AddToArray {
             int sum = numvalu + d + carry;
             int digit = sum % 10;
             carry =  sum/10;
-
             ans.add(digit);
 
             p--;
