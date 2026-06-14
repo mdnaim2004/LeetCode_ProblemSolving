@@ -9,7 +9,7 @@ class BinarySearch {
             if(nums[mid] == target){   // searching the first half
                 return mid;
             }
-            else if(target >= nums[mid]){
+            else if(target >= nums[mid]){ // find second half
                 start = mid + 1;
             }
             else{
