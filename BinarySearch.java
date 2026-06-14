@@ -6,7 +6,7 @@ class BinarySearch {
         while(start <= end){   // devided into 1st and last and find the mid position
             int mid = (start + end)/2;
 
-            if(nums[mid] == target){
+            if(nums[mid] == target){   // searching the first half
                 return mid;
             }
             else if(target >= nums[mid]){
